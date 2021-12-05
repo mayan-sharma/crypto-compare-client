@@ -1,0 +1,26 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container div a {
+    text-decoration: none;
+    color: #000;
+    margin: 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+}
